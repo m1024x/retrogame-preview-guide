@@ -8,27 +8,34 @@ Please follow this guide to download screenshots for your roms and show them in 
 
 ### 1.1) Download Universal XML Scraper and profile
 
+* download [this profile for Universal XML Scraper](uxs-profile-rs-97.zip?raw=true)
 * download [latest release of Universal XML Scraper](https://github.com/Universal-Rom-Tools/Universal-XML-Scraper/releases)
-* extract to  folder on your PC (e.g. /UXS)
-* download [this sample profile for Universal XML Scraper](uxs-profile-rs-97.zip)
-* extract content of profile zip file to /UXS/ProfilsFiles/
+* move downloaded exe into an empty folder on your PC (e.g. /UXS)
 
 ### 1.2) Configure Universal XML Scraper
 
-* start UXS and go to `Configuration` > `Change your profile`
+* start UXS and go through the configuration wizzard (simple visual, no registration, no scrape)
+
+* extract content of profile zip file to /UXS/ProfilsFiles/
+
+* go to `Configuration` > `Change your profile`
   
   ![select profile](screenshots/uxs-profiles.png)
 
-* go to `Configuration` > `General configuration` and edit your country/language preferences and included file extensions
+* go to `Configuration` > `General configuration` and edit your country/language preferences and included file extensions (e. g. country: `%COUNTRY%|de|eu|wor|ss|us|jp|cus`)
 
   ![edit general config](screenshots/uxs-general-config.png)
 
+* go to `Configuration` > `Advanced` > `Pictures configuration` and select `png`
+
 * go to `Configuration` > `Advanced` > `Autoconfiguration path configuration`
-* change `Root System directory` to the directory that contains your rom folders (e.g. snes/nes/gb etc.)
+
+* enable `Use autoconfig` and change `Root System directory` to the directory that contains your rom folders (e.g. snes/nes/gb etc.)
 
   ![edit auto config](screenshots/uxs-auto-config.png)
 
 * after hitting `Save`, your rom directories should be found
+
 * verify that `Scrape` > `Select your system` contains all your rom directories
 
 ### 1.3) Download preview images for a system
