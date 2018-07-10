@@ -26,6 +26,10 @@ Please follow this guide to download screenshots for your roms and show them in 
 
   ![edit general config](screenshots/uxs-general-config.png)
 
+* go to `Options` > `Visual` > `Default visual` and select your preferred media type
+
+  ![select default visual](screenshots/uxs-default-visual.png)
+  
 * go to `Configuration` > `Advanced` > `Pictures configuration` and select `png`
 
 * go to `Configuration` > `Advanced` > `Autoconfiguration path configuration`
